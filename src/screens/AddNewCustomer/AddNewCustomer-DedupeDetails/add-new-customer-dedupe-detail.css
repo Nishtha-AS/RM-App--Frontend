@@ -1,0 +1,109 @@
+/* make the outer wrapper full‐height flex */
+.add-new-customer-dedupe-detail {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* this region flex‐grows and scrolls */
+.dedupe-detail-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  box-sizing: border-box;
+  /* leave room at bottom so Back button scrolls above footer */
+  padding-bottom: 100px;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.subsection-heading {
+  display: inline-block;
+  border-bottom: 2px solid #2d5497;
+  color: #2d5497;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.entity-name {
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #334391;
+}
+
+/* Info table styling */
+.table-container {
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.info-table td {
+  padding: 8px 12px;
+  vertical-align: top;
+  word-break: break-word;
+}
+.info-table td:first-child {
+  width: 35%;
+  background: #f9f9f9;
+  font-size: 12px;
+  color: #444;
+}
+.info-table td:last-child {
+  width: 65%;
+  color: #2d5497;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Relationship‐manager grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.grid-header {
+  background: #ecf0fb;
+  padding: 8px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-right: 1px solid #e0e0e0;
+}
+.grid-cell {
+  background: #f5f5f5;
+  padding: 10px 6px;
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+}
+.grid-header:last-child,
+.grid-cell:last-child {
+  border-right: none;
+}
+
+/* back-button container */
+.button-container {
+  text-align: center;
+  margin-top: 16px;
+}
+.back-button {
+  background-color: #2d5497;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 8px 24px;
+}

@@ -1,0 +1,120 @@
+.information-tabs-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.application-card {
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.application-card.pending {
+  background-color: #e0eaff;
+}
+
+.application-card.completed {
+  background-color: #e6f4ea;
+}
+
+.application-card.draft {
+  background-color: #fff8e5;
+}
+
+.application-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.application-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.application-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #2d5497;
+}
+
+.application-subtitle {
+  font-size: 10px;
+  color: #333;
+  font-weight: 500;
+}
+
+.application-status {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.application-date {
+  font-size: 10px;
+  color: #777;
+}
+
+.progress-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.progress-text {
+  font-size: 10px;
+  font-weight: 500;
+  color: #2d5497;
+}
+
+.progress-bar-icon {
+  height: 8px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.completed-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.completed-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.completed-text {
+  font-size: 10px;
+  font-weight: 600;
+  color: #219653;
+}
+
+.application-action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.view-more {
+  font-size: 10px;
+  font-weight: 500;
+  color: #2d5497;
+  text-decoration: underline;
+}
+
+.view-more-icon {
+  width: 10px;
+  height: 10px;
+}

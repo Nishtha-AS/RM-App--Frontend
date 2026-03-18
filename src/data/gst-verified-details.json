@@ -1,0 +1,133 @@
+[
+  {
+    "pan": "AABCR0455M",
+    "gstins": [
+      {
+        "gstin": "27AACR5055K1ZL",
+        "location": "Maharashtra",
+        "status": "Active",
+        "verified": true,
+        "details": {
+          "legal_name": "RELIANCE INDUSTRIES LTD",
+          "trade_name": "RELIANCE",
+          "registration_date": "2017-06-28",
+          "constitution": "Public Limited Company",
+          "gst_status": "Active",
+          "taxpayer_type": "Regular",
+          "aadhaar_auth": "Yes (on 01/04/2023)",
+          "ekyc": "Applicable",
+          "core_business_activity": "Manufacturer",
+          "other_business_activities": [
+            "Warehouse / Depot"
+          ],
+          "hsn_goods": [
+            {
+              "hsn": "76011040",
+              "description": "WIRE RODS"
+            },
+            {
+              "hsn": "76011010",
+              "description": "INGOTS"
+            },
+            {
+              "hsn": "76012020",
+              "description": "BILLETS"
+            },
+            {
+              "hsn": "74031100",
+              "description": "CATHODES"
+            },
+            {
+              "hsn": "74081190",
+              "description": "OTHER"
+            }
+          ],
+          "filing_frequency": {
+            "2025-26": {
+              "Q1": "Monthly",
+              "Q2": "Monthly",
+              "Q3": "Monthly",
+              "Q4": "Monthly"
+            }
+          }
+        }
+      },
+      {
+        "gstin": "29AACR5055K2Z9",
+        "location": "Karnataka",
+        "status": "Active",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "pan": "AAECN2319Q",
+    "gstins": [
+      {
+        "gstin": "08AAACS7101B1ZW",
+        "location": "Rajasthan",
+        "status": "Active",
+        "verified": true,
+        "details": {
+          "legal_name": "VEDANTA LIMITED",
+          "trade_name": "VEDANTA LIMITED",
+          "registration_date": "2017-07-01",
+          "constitution": "Public Limited Company",
+          "gst_status": "Active",
+          "taxpayer_type": "Regular",
+          "aadhaar_auth": "Yes (on 29/04/2024)",
+          "ekyc": "Not Applicable",
+          "core_business_activity": "Manufacturer",
+          "other_business_activities": [
+            "Warehouse / Depot"
+          ],
+          "hsn_goods": [
+            {
+              "hsn": "76011040",
+              "description": "WIRE RODS"
+            },
+            {
+              "hsn": "76011010",
+              "description": "INGOTS"
+            },
+            {
+              "hsn": "76012020",
+              "description": "BILLETS"
+            },
+            {
+              "hsn": "74031100",
+              "description": "CATHODES"
+            },
+            {
+              "hsn": "74081190",
+              "description": "OTHER"
+            }
+          ],
+          "filing_frequency": {
+            "2025-26": {
+              "Q1": "Monthly",
+              "Q2": "Monthly",
+              "Q3": "Monthly",
+              "Q4": "Monthly"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "pan": "AADFD8342N",
+    "gstins": [
+      {
+        "gstin": "07AADFD8342N1ZP",
+        "location": "Delhi",
+        "status": "Inactive",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "pan": "AACFM8823K",
+    "gstins": []
+  }
+]

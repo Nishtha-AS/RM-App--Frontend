@@ -1,0 +1,63 @@
+.gstin-history-modal-box {
+    background-color: #ffffff;
+    padding: 24px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+    overflow-y: auto;
+    max-height: 80vh;
+    box-sizing: border-box;
+  }
+  
+  .gstin-history-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2d5497;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .gstin-history-item {
+    background-color: #f0f4fc;
+    border-left: 4px solid #2d5497;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .gstin-history-line {
+    flex: 1;
+    font-size: 13px;
+    color: #2d5497;
+    font-weight: 500;
+  }
+  
+  .gstin-history-timestamp {
+    font-size: 11px;
+    color: #888;
+    white-space: nowrap;
+  }
+  
+  .gstin-history-empty {
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+    padding: 12px 0;
+  }
+  
+  .gstin-history-modal-box .MuiButton-root {
+    margin-top: 12px;
+  }
+  

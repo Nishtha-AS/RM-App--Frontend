@@ -1,0 +1,42 @@
+[
+  {
+    "PAN": "AAECN2319Q",
+    "Name": "New Startup Pvt Ltd",
+    "Entity Type": "Private Limited",
+    "GSTIN Status": "NOT_FOUND",
+    "GSTIN Details": null,
+    "Manual GSTIN": null,
+    "Manual Location": null,
+    "Reason If Not Found": "I am/we are not required to fill GST return as my/our sales are below required to GST registration."
+  },
+  {
+    "PAN": "AABCR0455M",
+    "Name": "Reliance Industries Ltd",
+    "Entity Type": "Public Limited",
+    "GSTIN Status": "FOUND",
+    "GSTIN Details": "27AAACR5055K1ZL|Maharashtra|Active;29AAACR5055K2Z9|Karnataka|Active",
+    "Manual GSTIN": null,
+    "Manual Location": null,
+    "Reason If Not Found": null
+  },
+  {
+    "PAN": "AADFD8342N",
+    "Name": "Draft Infra LLP",
+    "Entity Type": "LLP",
+    "GSTIN Status": "MANUAL_ENTRY",
+    "GSTIN Details": null,
+    "Manual GSTIN": "29ABCDE1234F1Z9",
+    "Manual Location": "Karnataka",
+    "Reason If Not Found": null
+  },
+  {
+    "PAN": "AACFM8823K",
+    "Name": "Mix Case Firm",
+    "Entity Type": "Proprietorship",
+    "GSTIN Status": "NOT_FOUND",
+    "GSTIN Details": null,
+    "Manual GSTIN": null,
+    "Manual Location": null,
+    "Reason If Not Found": "GST is not applicable in my State"
+  }
+]

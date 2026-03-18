@@ -1,0 +1,68 @@
+[
+  {
+    "matchId":"D1",
+    "pan":"AABCR0455M",
+    "type":"dedupe",
+    "initials":"RI",
+    "name":"Reliance Industries Ltd",
+    "entityType":"Public Limited",
+    "zoneOrRegion":"Mumbai",
+    "modifiedDate":1739577600000,
+    "status":"Active"
+  },
+  {
+    "matchId":"D2",
+    "pan":"AABCR0455M",
+    "type":"dedupe",
+    "initials":"RG",
+    "name":"Reliance Global Pvt Ltd",
+    "entityType":"Private Limited",
+    "zoneOrRegion":"Delhi",
+    "modifiedDate":1739318400000,
+    "status":"Active"
+  },
+  {
+    "matchId":"D3",
+    "pan":"CCC3333C",
+    "type":"draft",
+    "initials":"DI",
+    "name":"Draft Infra LLP",
+    "entityType":"LLP",
+    "zoneOrRegion":"Hyderabad",
+    "modifiedDate":1739404800000,
+    "status":"Incomplete"
+  },
+  {
+    "matchId":"D4",
+    "pan":"AACFM8823K",
+    "type":"dedupe",
+    "initials":"MF",
+    "name":"Mix Case Firm",
+    "entityType":"Proprietorship",
+    "zoneOrRegion":"Bengaluru",
+    "modifiedDate":1739491200000,
+    "status":"Active"
+  },
+  {
+    "matchId":"DR1",
+    "pan":"AADFD8342N",
+    "type":"draft",
+    "initials":"DI",
+    "name":"Draft Infra LLP",
+    "entityType":"LLP",
+    "zoneOrRegion":"Hyderabad",
+    "modifiedDate":1739404800000,
+    "status":"Incomplete"
+  },
+  {
+    "matchId":"DR2",
+    "pan":"AACFM8823K",
+    "type":"draft",
+    "initials":"MF",
+    "name":"Mix Case Firm",
+    "entityType":"Proprietorship",
+    "zoneOrRegion":"Bengaluru",
+    "modifiedDate":1739491200000,
+    "status":"Incomplete"
+  }
+]

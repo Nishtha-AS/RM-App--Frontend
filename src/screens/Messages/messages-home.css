@@ -1,0 +1,114 @@
+.messages-home-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #fff;
+  }
+  
+  .messages-home-content {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 56px; /* leave room for footer */
+  }
+  
+  /* Chats (n) label */
+  .messages-subheading {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2d5497;
+    margin: 12px 20px 8px;
+    padding-left: 20px; /* same left/right as search bar */
+  }
+  
+  /* Chat cards container */
+  .chat-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 20px;
+  }
+  
+  /* Individual chat card */
+  .chat-card {
+    display: flex;
+    align-items: center;
+    background: #f2f4ff;
+    border-radius: 12px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .chat-card:hover {
+    background: #e0e4ff;
+  }
+  
+  /* Avatar */
+  .avatar {
+    width: 36px;
+    height: 36px;
+    background: #2d5497;
+    color: #fff;
+    border-radius: 50%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Chat text */
+  .chat-info {
+    flex: 1;
+    margin-left: 12px;
+  }
+  .chat-name {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2d5497;
+  }
+  .chat-preview {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  /* Date + unread bubble */
+  .chat-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .chat-date {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    color: #999;
+  }
+  .unread-count {
+    background: #2d5497;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 12px;
+    margin-top: 4px;
+    min-width: 20px;
+    text-align: center;
+  }
+  
+  /* New Chat button */
+  .new-chat-wrapper {
+    padding: 0 20px 20px;
+  }
+  .new-chat-btn {
+    width: 100%;
+    background: #2d5497 !important;
+    color: #fff !important;
+    text-transform: none !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+  }
+  

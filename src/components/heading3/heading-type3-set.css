@@ -1,0 +1,32 @@
+.heading-type-3 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 16px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+.summary-heading-container {
+  padding: 0 16px;
+  margin-top: 4px; /* reduce top margin */
+  margin-bottom: 8px; /* optional if spacing below is also tight */
+}
+.main-heading {
+  position: relative;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.basic-details {
+  font-size: 16px;
+  font-weight: 600;
+  color: #334391;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-heading-underline {
+  width: 60px;
+  height: 4px;
+  margin-top: 4px;
+}

@@ -1,0 +1,116 @@
+.tasks-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.tasks-content {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 56px;
+}
+
+/* Optional: spacing below each group */
+.tasks-list + .tasks-list {
+  margin-top: 12px;
+}
+
+.tasks-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 20px 16px;
+  box-sizing: border-box;
+}
+
+.icon-sm {
+  width: 16px;
+  height: 16px;
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.task-card {
+  display: flex;
+  align-items: flex-start;
+  background: #e8f0fe;
+  border-radius: 12px;
+  padding: 16px;
+  gap: 12px;
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+
+.task-card:hover {
+  background: #d0e1fd;
+  cursor: pointer;
+}
+
+.card-avatar {
+  width: 40px;
+  height: 40px;
+  background: #2d5497;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.card-info {
+  flex: 1;
+}
+
+.info-role {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  color: #334391;
+}
+
+.info-workflow {
+  font-family: Poppins;
+  font-size: 12px;
+  color: #6b7a99;
+  margin-top: 2px;
+}
+
+.card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.badge {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.green {
+  background: #37b24d;
+}
+
+.orange {
+  background: #f59f00;
+}
+
+/* Optional enhancement for section labels */
+.tasks-content > .MuiTypography-root {
+  padding-left: 20px;
+  padding-right: 20px;
+}

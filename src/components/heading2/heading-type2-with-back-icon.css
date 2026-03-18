@@ -1,0 +1,61 @@
+.heading2-container {
+  padding: 16px 20px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Top row: back + title */
+.heading2-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.heading2-back img {
+  width: 24px;
+  height: 24px;
+}
+.heading2-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.heading2-divider {
+  width: 3px;
+  height: 20px;
+  background-color: #00a0dc;
+}
+.heading2-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #334391;
+}
+
+/* The TextField itself */
+.heading2-textfield {
+  margin-bottom: 16px;
+}
+
+/* Style the MUI input root */
+.heading2-textfield .MuiOutlinedInput-root {
+  border-radius: 20px;
+  background: #f7f9fc;
+}
+
+/* Add padding so text never collides with adornments */
+.heading2-textfield .MuiOutlinedInput-input {
+  padding: 8px 36px;
+}
+
+/* Icon sizing */
+.heading2-icon {
+  color: #888; /* matches placeholder color */
+}
+.heading2-sort-btn {
+  padding: 4px;
+}
+.heading2-sort-btn img {
+  width: 20px;
+  height: 20px;
+}

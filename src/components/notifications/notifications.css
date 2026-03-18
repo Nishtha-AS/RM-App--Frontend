@@ -1,0 +1,146 @@
+.notifications-screen {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 16px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.notifications-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.notifications-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d5497;
+  flex: 1;
+  text-align: center;
+  margin-left: -32px; /* balances layout between back and settings buttons */
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.notification-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.notification-item.unread {
+  background-color: #e8f0fe;
+}
+
+.initials-badge {
+  min-width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #2d5497;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.message-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.timestamp {
+  font-size: 11px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.status-label {
+  font-size: 11px;
+  color: #2d5497;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+.clear-all {
+  font-size: 13px;
+  color: #2d5497;
+  font-weight: 500;
+  text-align: right;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.clear-all:hover {
+  text-decoration: underline;
+}
+
+/* Dialog customizations */
+.MuiDialog-paper {
+  border-radius: 12px !important;
+  padding: 16px !important;
+}
+
+.MuiDialogTitle-root {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d5497;
+  font-family: "Poppins", sans-serif;
+}
+
+.MuiDialogContent-root {
+  font-size: 14px;
+  color: #444;
+  font-family: "Poppins", sans-serif;
+  padding-top: 8px !important;
+}
+
+/* Settings menu customization */
+.MuiMenu-paper {
+  border-radius: 10px !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+
+/* Responsiveness */
+@media (max-width: 480px) {
+  .notifications-screen {
+    padding: 12px;
+  }
+
+  .message-text {
+    font-size: 13px;
+  }
+
+  .timestamp,
+  .status-label {
+    font-size: 10px;
+  }
+
+  .initials-badge {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+  }
+}

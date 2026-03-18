@@ -1,0 +1,94 @@
+.help-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #fff;
+  }
+  
+  .help-content {
+    flex: 1;
+    padding: 16px 20px 76px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  .help-search {
+    margin: 12px 0 24px;
+  }
+  .help-search .MuiOutlinedInput-root {
+    border-radius: 20px;
+    background: #f7f9fc;
+  }
+  .help-search-icon {
+    width: 18px;
+    height: 18px;
+    opacity: 0.6;
+  }
+  
+  .help-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  
+  /* each column: full width on mobile, 1/3 on desktop */
+  .help-card-col {
+    flex: 1 1 100%;
+  }
+  @media (min-width: 600px) {
+    .help-card-col {
+      flex: 1 1 calc(33.333% - 16px);
+    }
+  }
+  
+  .help-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .help-card-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .help-card-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #334391;
+    margin-bottom: 4px;
+  }
+  
+  .help-card-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #1f3d70;
+    text-decoration: none;
+  }
+  
+  .help-faq-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2d5497;
+    margin-bottom: 8px;
+  }
+  
+  .help-faq-item {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #334391;
+    margin-bottom: 6px;
+    cursor: pointer;
+  }
+  
+  .help-faq-item:hover {
+    text-decoration: underline;
+  }
+  

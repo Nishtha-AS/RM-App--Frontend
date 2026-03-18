@@ -1,0 +1,47 @@
+.button {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+  }
+  .button-wrapper,
+  .property-1default,
+  .property-1variant2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+  }
+  .property-1default,
+  .property-1variant2 {
+    position: absolute;
+    left: 20px;
+    border-radius: var(--br-3xs);
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+    flex-direction: column;
+    padding: 0 var(--padding-4xl);
+  }
+  .property-1default {
+    top: 20px;
+    background-color: var(--color-darkslateblue);
+  }
+  .property-1variant2 {
+    top: 80px;
+    border: 2px solid var(--color-darkslateblue);
+    color: var(--color-darkslateblue);
+  }
+  .button-1 {
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    border: 1px dashed #9747ff;
+    box-sizing: border-box;
+    height: 140px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: #fff;
+    font-family: var(--font-inter);
+  }

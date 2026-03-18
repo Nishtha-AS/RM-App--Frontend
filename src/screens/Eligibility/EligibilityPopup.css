@@ -1,0 +1,165 @@
+/* --- Overall Page Layout --- */
+.elig-popup-page {
+    background-color: #f4f6fc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    overflow-x: hidden;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+  }
+  
+  /* --- Card Container --- */
+  .popup-container {
+    background: linear-gradient(to bottom right, #ffffff, #f8faff);
+    border-radius: 20px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+    padding: 32px 24px;
+    max-width: 430px;
+    margin: 40px auto;
+    width: 90%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* --- Title --- */
+  .popup-title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 28px;
+    text-align: center;
+    color: #2d5497;
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid #dde3f0;
+    padding-bottom: 12px;
+  }
+  
+  /* --- Uniform Field Blocks --- */
+  .form-field {
+    margin-bottom: 26px;
+  }
+  
+  /* --- Manual Labels (radio, etc.) --- */
+  .form-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #334391;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  /* --- Submit Button --- */
+  .submit-btn {
+    background-color: #2d5497 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    text-transform: none !important;
+    padding: 12px 0 !important;
+    border-radius: 10px !important;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 3px 12px rgba(45, 84, 151, 0.3);
+    margin-top: 10px;
+  }
+  
+  /* --- Avatar in Result --- */
+  .avatar-circle {
+    width: 68px;
+    height: 68px;
+    background-color: #2d5497;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* --- Result Labels --- */
+  .info-label {
+    font-size: 12px;
+    font-weight: 400;
+    color: #6b7a99;
+    margin-top: 14px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .info-value {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 6px;
+    color: #334391;
+  }
+  
+  /* --- Status Coloring --- */
+  .status-green {
+    color: #23a04d;
+  }
+  
+  .status-yellow {
+    color: #f7b500;
+  }
+  
+  .status-red {
+    color: #d92d20;
+  }
+  
+  /* --- Fade-in Result Card --- */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .result-card {
+    text-align: center;
+    padding: 10px 8px;
+    animation: fadeIn 0.4s ease-in-out;
+  }
+  
+  /* --- Material UI Overrides for Better Spacing --- */
+  .MuiFormControl-root {
+    margin-bottom: 16px !important;
+  }
+  
+  .MuiInputLabel-root {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    color: #2d5497;
+  }
+  
+  .MuiOutlinedInput-root {
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* --- Radio Buttons Styling --- */
+  .MuiFormGroup-root {
+    gap: 12px;
+    margin-top: 6px;
+    padding-left: 6px;
+  }
+  
+  .MuiFormControlLabel-label {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #334391;
+  }
+  

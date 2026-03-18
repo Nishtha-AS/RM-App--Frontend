@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Page Layout */
+.notes-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .notes-content {
+    flex: 1;
+    padding: 16px;
+    padding-bottom: 70px; /* For footer spacing */
+  }
+  
+  /* Header Row with Back Button */
+  .notes-header-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .notes-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Notes List Section */
+  .notes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+  }
+  
+  .note-card {
+    background-color: #e8f0fe;
+    padding: 12px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .note-card:hover {
+    background-color: #d0e1fd;
+  }
+  
+  .note-title {
+    font-weight: 600;
+    color: #2d5497;
+  }
+  
+  .note-timestamp {
+    font-size: 12px;
+    color: #7d7d7d;
+  }
+  
+  /* Form Styling */
+  .note-form {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .note-form .MuiTextField-root {
+    background-color: #fff;
+  }
+  
+  .note-buttons-row {
+    display: flex;
+    gap: 12px;
+    padding: 16px;
+    justify-content: space-between;
+  }
+  
+  /* Upload section styling */
+  input[type="file"] {
+    display: none;
+  }
+  
+  .upload-label {
+    display: inline-block;
+    background-color: #e8f0fe;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #2d5497;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+  /* File list entries */
+  .attachment-list {
+    margin-top: 8px;
+  }
+  
+  .attachment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #f1f5ff;
+    margin-bottom: 6px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .attachment-item .MuiIconButton-root {
+    padding: 4px;
+  }
+  

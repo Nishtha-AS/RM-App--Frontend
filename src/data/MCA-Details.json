@@ -1,0 +1,340 @@
+[
+  {
+    "pan": "AABCR0455M",
+    "basic_details": {
+      "Company Name": "Reliance Industries Ltd",
+      "CIN": "L17110MH1973PLC019786",
+      "Company Type": "Public Company",
+      "Incorporation Date": "08-May-1973",
+      "E-Filing Status": "Active",
+      "Industry Type": "Conglomerate",
+      "Address": "3rd Floor, Maker Chambers IV, Nariman Point, Mumbai \u2013 400021"
+    },
+    "financial_info": {
+      "Authorized Capital": "\u20b95000 Cr",
+      "Paid-up Capital": "\u20b93750 Cr",
+      "Total Charges": "\u20b96000 Cr",
+      "Net Worth": "\u20b989000 Cr"
+    },
+    "shareholding_patterns": [
+      {
+        "Shareholder": "Mukesh Ambani",
+        "Type": "Promoter",
+        "Holding": "49.14%"
+      },
+      {
+        "Shareholder": "Foreign Institutional Investors",
+        "Type": "FII",
+        "Holding": "22.30%"
+      },
+      {
+        "Shareholder": "Public",
+        "Type": "Retail",
+        "Holding": "28.56%"
+      }
+    ],
+    "charges_liabilities": [
+      {
+        "Type": "Loan",
+        "Lender": "State Bank of India",
+        "Amount": "\u20b91000 Cr",
+        "Status": "Active"
+      },
+      {
+        "Type": "Mortgage",
+        "Lender": "ICICI Bank",
+        "Amount": "\u20b9500 Cr",
+        "Status": "Satisfied"
+      }
+    ],
+    "lei_details": {
+      "LEI Number": "335800KM3Y5NZWXOE1B3",
+      "LEI Status": "Issued (Active)",
+      "Registration Date": "13-Apr-2018",
+      "LEI Expiry Date": "12-Apr-2026"
+    },
+    "taxation_regulatory": {
+      "GST Number": "27AAACR5055K1Z5",
+      "PAN Number": "AABCR0455M",
+      "TAN Number": "MUMA01234B",
+      "SEBI Registration": "INE002A01018"
+    },
+    "authorised_signatories": [
+      {
+        "Name": "Mukesh Ambani",
+        "DIN": "00000001",
+        "Role": "Chairman & MD",
+        "Appointment Date": "31-Jul-2002"
+      },
+      {
+        "Name": "P M S Prasad",
+        "DIN": "00012137",
+        "Role": "Executive Director",
+        "Appointment Date": "01-Apr-2009"
+      }
+    ],
+    "litigation_cases": [
+      {
+        "Title": "Income Tax Dispute",
+        "Status": "Ongoing",
+        "Court": "Bombay High Court"
+      },
+      {
+        "Title": "Environmental Compliance",
+        "Status": "Resolved",
+        "Court": "National Green Tribunal"
+      }
+    ],
+    "compliance_findings": [
+      {
+        "Finding": "Compliant with SEBI Listing Regulations"
+      },
+      {
+        "Finding": "Delayed filing of one quarterly return in FY 2020-21"
+      }
+    ]
+  },
+  {
+    "pan": "AAECN2319Q",
+    "basic_details": {
+      "Company Name": "New Startup Pvt Ltd",
+      "CIN": "L-7027527PLC029246",
+      "Company Type": "Public Company",
+      "Incorporation Date": "01-Jan-2010",
+      "E-Filing Status": "Active",
+      "Industry Type": "Technology",
+      "Address": "New Startup Pvt Ltd Corporate Office, Mumbai"
+    },
+    "financial_info": {
+      "Authorized Capital": "\u20b9100 Cr",
+      "Paid-up Capital": "\u20b975 Cr",
+      "Total Charges": "\u20b920 Cr",
+      "Net Worth": "\u20b9150 Cr"
+    },
+    "shareholding_patterns": [
+      {
+        "Shareholder": "Founder A",
+        "Type": "Promoter",
+        "Holding": "60%"
+      },
+      {
+        "Shareholder": "VC Firm X",
+        "Type": "Investor",
+        "Holding": "30%"
+      },
+      {
+        "Shareholder": "Public",
+        "Type": "Retail",
+        "Holding": "10%"
+      }
+    ],
+    "charges_liabilities": [
+      {
+        "Type": "Loan",
+        "Lender": "HDFC Bank",
+        "Amount": "\u20b910 Cr",
+        "Status": "Active"
+      },
+      {
+        "Type": "Mortgage",
+        "Lender": "Axis Bank",
+        "Amount": "\u20b95 Cr",
+        "Status": "Satisfied"
+      }
+    ],
+    "lei_details": {
+      "LEI Number": "LEI111AXYZ",
+      "LEI Status": "Issued (Active)",
+      "Registration Date": "10-Feb-2020",
+      "LEI Expiry Date": "10-Feb-2025"
+    },
+    "taxation_regulatory": {
+      "GST Number": "27AAAA1111A1Z1",
+      "PAN Number": "AAECN2319Q",
+      "TAN Number": "MUM111AZ",
+      "SEBI Registration": "INE111AA01018"
+    },
+    "authorised_signatories": [
+      {
+        "Name": "Founder A",
+        "DIN": "00012345",
+        "Role": "Managing Director",
+        "Appointment Date": "01-Jan-2010"
+      }
+    ],
+    "litigation_cases": [
+      {
+        "Title": "Contract Dispute",
+        "Status": "Ongoing",
+        "Court": "Mumbai High Court"
+      }
+    ],
+    "compliance_findings": [
+      {
+        "Finding": "Compliant with Companies Act"
+      }
+    ]
+  },
+  {
+    "pan": "AADFD8342N",
+    "basic_details": {
+      "Company Name": "Draft Infra LLP",
+      "CIN": "L-8412263PLC408171",
+      "Company Type": "Public Company",
+      "Incorporation Date": "01-Jan-2010",
+      "E-Filing Status": "Active",
+      "Industry Type": "Diversified",
+      "Address": "Draft Infra LLP Corporate Office, Mumbai"
+    },
+    "financial_info": {
+      "Authorized Capital": "\u20b9100 Cr",
+      "Paid-up Capital": "\u20b975 Cr",
+      "Total Charges": "\u20b920 Cr",
+      "Net Worth": "\u20b9150 Cr"
+    },
+    "shareholding_patterns": [
+      {
+        "Shareholder": "Founder A",
+        "Type": "Promoter",
+        "Holding": "60%"
+      },
+      {
+        "Shareholder": "VC Firm X",
+        "Type": "Investor",
+        "Holding": "30%"
+      },
+      {
+        "Shareholder": "Public",
+        "Type": "Retail",
+        "Holding": "10%"
+      }
+    ],
+    "charges_liabilities": [
+      {
+        "Type": "Loan",
+        "Lender": "HDFC Bank",
+        "Amount": "\u20b910 Cr",
+        "Status": "Active"
+      },
+      {
+        "Type": "Mortgage",
+        "Lender": "Axis Bank",
+        "Amount": "\u20b95 Cr",
+        "Status": "Satisfied"
+      }
+    ],
+    "lei_details": {
+      "LEI Number": "LEI333CXYZ",
+      "LEI Status": "Issued (Active)",
+      "Registration Date": "10-Feb-2020",
+      "LEI Expiry Date": "10-Feb-2025"
+    },
+    "taxation_regulatory": {
+      "GST Number": "27CCC3333C1Z1",
+      "PAN Number": "AADFD8342N",
+      "TAN Number": "MUM333CZ",
+      "SEBI Registration": "INE333CA01018"
+    },
+    "authorised_signatories": [
+      {
+        "Name": "Founder A",
+        "DIN": "00012345",
+        "Role": "Managing Director",
+        "Appointment Date": "01-Jan-2010"
+      }
+    ],
+    "litigation_cases": [
+      {
+        "Title": "Contract Dispute",
+        "Status": "Ongoing",
+        "Court": "Mumbai High Court"
+      }
+    ],
+    "compliance_findings": [
+      {
+        "Finding": "Compliant with Companies Act"
+      }
+    ]
+  },
+  {
+    "pan": "AACFM8823K",
+    "basic_details": {
+      "Company Name": "Mix Case Firm",
+      "CIN": "L48860937PLC424323",
+      "Company Type": "Public Company",
+      "Incorporation Date": "01-Jan-2010",
+      "E-Filing Status": "Active",
+      "Industry Type": "Diversified",
+      "Address": "Mix Case Firm Corporate Office, Mumbai"
+    },
+    "financial_info": {
+      "Authorized Capital": "\u20b9100 Cr",
+      "Paid-up Capital": "\u20b975 Cr",
+      "Total Charges": "\u20b920 Cr",
+      "Net Worth": "\u20b9150 Cr"
+    },
+    "shareholding_patterns": [
+      {
+        "Shareholder": "Founder A",
+        "Type": "Promoter",
+        "Holding": "60%"
+      },
+      {
+        "Shareholder": "VC Firm X",
+        "Type": "Investor",
+        "Holding": "30%"
+      },
+      {
+        "Shareholder": "Public",
+        "Type": "Retail",
+        "Holding": "10%"
+      }
+    ],
+    "charges_liabilities": [
+      {
+        "Type": "Loan",
+        "Lender": "HDFC Bank",
+        "Amount": "\u20b910 Cr",
+        "Status": "Active"
+      },
+      {
+        "Type": "Mortgage",
+        "Lender": "Axis Bank",
+        "Amount": "\u20b95 Cr",
+        "Status": "Satisfied"
+      }
+    ],
+    "lei_details": {
+      "LEI Number": "LEI444DXYZ",
+      "LEI Status": "Issued (Active)",
+      "Registration Date": "10-Feb-2020",
+      "LEI Expiry Date": "10-Feb-2025"
+    },
+    "taxation_regulatory": {
+      "GST Number": "27DDDD4444D1Z1",
+      "PAN Number": "AACFM8823K",
+      "TAN Number": "MUM444DZ",
+      "SEBI Registration": "INE444DA01018"
+    },
+    "authorised_signatories": [
+      {
+        "Name": "Founder A",
+        "DIN": "00012345",
+        "Role": "Managing Director",
+        "Appointment Date": "01-Jan-2010"
+      }
+    ],
+    "litigation_cases": [
+      {
+        "Title": "Contract Dispute",
+        "Status": "Ongoing",
+        "Court": "Mumbai High Court"
+      }
+    ],
+    "compliance_findings": [
+      {
+        "Finding": "Compliant with Companies Act"
+      }
+    ]
+  }
+]

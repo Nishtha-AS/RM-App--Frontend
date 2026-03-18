@@ -1,0 +1,157 @@
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #2c5192 14.89%, #0d182c);
+  width: 100%;
+  height: 100%;
+}
+
+/* Status Bar */
+.ios-status-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  font-family: var(--font-sf-pro);
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+.time1 {
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.battery,
+.capacity,
+.cap-icon,
+.wifi-icon,
+.cellular-connection-icon {
+  position: relative;
+}
+
+/* Center Logo + Tagline */
+.center-content {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.aadiswan-logo-icon {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+.tag-line {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--color-white);
+}
+
+.lending {
+  color: var(--color-red);
+}
+
+/* Continue Section */
+.continue-section {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.country-selector {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--color-white);
+}
+
+.geo-tag-icon {
+  width: 16px;
+  height: auto;
+}
+
+.down-arrow-icon {
+  width: 6px;
+  height: 3px;
+}
+
+.continue-button {
+  width: 100%;
+  height: 50px;
+  border: 2px solid var(--color-white);
+  border-radius: 25px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-white);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.continue-button:hover {
+  background-color: var(--color-white);
+  color: #2c5192;
+}
+
+.continue {
+  position: relative;
+}
+
+.terms-and-conditions-container {
+  font-size: 12px;
+  color: var(--color-white);
+}
+
+.tc {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Page Layout */
+.rectangle-parent {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.login-screen-1 {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(180deg, #2d5497, #0f1b31);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-poppins);
+}

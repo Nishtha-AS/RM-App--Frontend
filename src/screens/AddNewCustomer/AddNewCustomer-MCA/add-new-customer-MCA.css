@@ -1,0 +1,156 @@
+.mca-screen {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-header-wrapper {
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+  
+  .mca-content {
+    padding: 0 20px 40px;
+    flex-grow: 1;
+    box-sizing: border-box;
+  }
+  
+  .main-heading {
+    color: #2D5497;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .main-heading::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 40px;
+    background-color: #2D5497;
+    border-radius: 2px;
+    margin-top: 4px;
+  }
+  
+  .sub-heading {
+    font-size: 11px;
+    color: #2D5497;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 24px;
+    line-height: 1.4;
+  }
+  
+  .accordian-spacing {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 12px;
+  }
+  
+  .finance-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .finance-box {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .finance-box strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .finance-box.yellow { background-color: #fff8dc; }
+  .finance-box.green { background-color: #dfffe2; }
+  .finance-box.blue { background-color: #e7f0ff; }
+  .finance-box.red { background-color: #ffe9e9; }
+  
+  .badge-active {
+    display: inline-block;
+    padding: 2px 10px;
+    background-color: #2D5497;
+    color: white;
+    font-size: 11px;
+    border-radius: 20px;
+    margin-left: 6px;
+    vertical-align: middle;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .mca-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 0 4px;
+  }
+  
+  .nav-button {
+    background-color: #2D5497 !important;
+    border-radius: 8px;
+    padding: 8px 24px;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+  }
+  
+  .section-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+    margin-top: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #333;
+  }
+  
+  /* Label and Value text styles inside accordions */
+  .label-text {
+    font-size: 11px;
+    color: #000;
+    font-weight: 400;
+    margin-right: 4px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .value-text {
+    font-size: 12px;
+    color: #2D5497;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Signatory table */
+  .signatory-table th, .signatory-table td {
+    font-size: 11px;
+    padding: 10px 8px;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+  }
+  
+  /* Material UI overrides */
+  .MuiTableCell-root {
+    border-bottom: 1px solid #eee !important;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 8px !important;
+  }
+  

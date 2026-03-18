@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;300;400;500;600&display=swap');
+
+.task-table-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Section headers for "Assigned to Me" and "Unassigned Tasks" */
+.task-table-wrapper > .MuiTypography-root {
+  margin-top: 0px;
+}
+
+/* Task row layout */
+.task-row {
+  display: grid;
+  grid-template-columns: 50px 1fr 2fr 90px;
+  background-color: #e0eaff;
+  border-radius: 12px;
+  padding: 12px;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Cell structure */
+.cell {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  word-wrap: break-word;
+  font-family: 'Poppins', sans-serif;
+  padding: 2px;
+}
+
+.circle-cell {
+  justify-content: center;
+}
+
+/* Circle badge */
+.circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #2d5497;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Label: Role / Workflow */
+.label {
+  font-size: 7px;
+  font-weight: 300;
+  color: #7d7d7d;
+  margin-bottom: 2px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Value: role, workflow */
+.value {
+  font-size: 11px;
+  font-weight: 500;
+  color: #2d5497;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.3;
+}
+
+/* Pill container */
+.pill-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Pill styling */
+.pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 6px;
+  border-radius: 10px;
+  width: 64px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pill .number {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.pill .text {
+  font-size: 8px;
+  font-weight: 500;
+  margin-top: 2px;
+  line-height: 1;
+}
+
+.pill.green {
+  background-color: #27ae60;
+  color: white;
+}
+
+.pill.orange {
+  background-color: #f2994a;
+  color: white;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 379px) {
+  .task-row {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+  }
+
+  .cell {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .pill-cell {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 6px;
+  }
+
+  .pill {
+    width: auto;
+    margin: 0 4px;
+  }
+}

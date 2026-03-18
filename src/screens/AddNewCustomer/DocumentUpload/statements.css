@@ -1,0 +1,163 @@
+.statements-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .statements-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .upload-top-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 0 20px;
+  }
+  
+  .upload-icon-button {
+    background-color: #e0eaff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 4px;
+  }
+  
+  .upload-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2d5497;
+  }
+  
+  .statement-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .statement-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f6fc;
+    padding: 12px;
+    border-radius: 10px;
+  }
+  
+  .statement-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .bank-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #dde9fb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2d5497;
+  }
+  
+  .statement-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .account-text {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .date-range {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .statement-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+  
+  .status-badge {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .status-badge.processing {
+    background-color: #f9b74d;
+    color: #000;
+  }
+  
+  .status-badge.processed {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .status-badge.failed {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .time-info {
+    font-size: 10px;
+    color: #777;
+  }
+  
+  .download-btn {
+    padding: 4px;
+    margin-top: 2px;
+  }
+  
+
+  .statement-nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding: 0 12px;
+    gap: 12px;
+  }
+  
+  .nav-btn-outline {
+    border: 2px solid #2d5497 !important;
+    color: #2d5497 !important;
+    font-weight: 600 !important;
+    font-family: "Poppins", sans-serif !important;
+    padding: 10px 20px !important;
+    border-radius: 8px !important;
+    text-transform: none !important;
+    flex: 1;
+  }
+  
+  .nav-btn-filled {
+    background-color: #2d5497 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-family: "Poppins", sans-serif !important;
+    padding: 10px 20px !important;
+    border-radius: 8px !important;
+    text-transform: none !important;
+    box-shadow: none !important;
+    flex: 1;
+  }
+  
+  @media (max-width: 480px) {
+    .statement-nav-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

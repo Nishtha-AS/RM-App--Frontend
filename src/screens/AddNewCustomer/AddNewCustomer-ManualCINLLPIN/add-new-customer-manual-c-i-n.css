@@ -1,0 +1,157 @@
+:root {
+  --primary-blue: #2D5497;
+}
+
+.manual-cin-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+
+.section-header-wrapper {
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.cin-content {
+  padding: 0 24px 40px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.heading-container {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.main-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary-blue);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.main-heading::after {
+  content: '';
+  display: block;
+  margin-top: 6px;
+  height: 2px;
+  width: 40px;
+  background-color: var(--primary-blue);
+  border-radius: 2px;
+}
+
+.sub-heading {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-blue);
+  font-family: "Poppins", sans-serif;
+}
+
+.cin-toggle-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-blue);
+}
+
+.cin-toggle-wrapper {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.toggle-btn {
+  min-width: 100px;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px !important;
+  height: 40px;
+  color: var(--primary-blue) !important;
+  border-color: var(--primary-blue) !important;
+}
+
+.toggle-btn.selected {
+  background-color: var(--primary-blue) !important;
+  color: #fff !important;
+}
+
+.cin-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.input-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--primary-blue);
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-input .MuiOutlinedInput-root {
+  border-radius: 8px;
+  background-color: #f4f7fc;
+  font-size: 12px;
+  padding: 0 12px;
+  height: 38px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  color: var(--primary-blue);
+  border-color: var(--primary-blue) !important;
+}
+
+.custom-input input {
+  font-size: 12px !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.MuiInputLabel-root {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-blue);
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary-blue) !important;
+}
+
+.MuiOutlinedInput-input::placeholder {
+  font-size: 12px !important;
+  font-family: "Poppins", sans-serif !important;
+  opacity: 1 !important;
+  color: #7a7a7a;
+}
+
+.cin-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.nav-button {
+  background-color: var(--primary-blue) !important;
+  border-radius: 8px;
+  padding: 8px 24px;
+  text-transform: none;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  min-width: 120px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

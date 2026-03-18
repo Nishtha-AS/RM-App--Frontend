@@ -1,0 +1,46 @@
+/* Full‐page wrapper */
+.privacy-page {
+    background: #ffffff;
+    min-height: 100vh;
+    padding-bottom: 56px; /* leave room for footer nav */
+  }
+  
+  /* Header bar */
+  .privacy-header-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #2d5497;
+    padding: 8px 16px;
+  }
+  .back-btn {
+    color: #ffffff;
+  }
+  .header-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+  /* Main content */
+  .privacy-content {
+    padding: 16px 20px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+    line-height: 1.6;
+  }
+  
+  /* Section headings */
+  .privacy-content h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  
+  /* Paragraph spacing */
+  .privacy-content p {
+    margin-bottom: 16px;
+  }
+  

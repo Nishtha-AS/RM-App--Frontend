@@ -1,0 +1,34 @@
+.summary-card {
+    background-color: #f5f9ff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  
+  .summary-row:last-child {
+    border-bottom: none;
+  }
+  
+  .summary-label {
+    font-size: 13px;
+    color: #333;
+  }
+  
+  .summary-value {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2d5497;
+  }
+  
+  .status-red {
+    color: #e60000;
+  }
+  

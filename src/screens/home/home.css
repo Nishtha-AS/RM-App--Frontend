@@ -1,0 +1,231 @@
+.home-screen {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #f0f4f8, #ffffff);
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 60px;
+  overflow-x: hidden;
+}
+
+.body-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.profile-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.action-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button2-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button3-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.button2-set {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  width: 100%;
+  scrollbar-width: none;
+}
+.button2-set::-webkit-scrollbar {
+  display: none;
+}
+
+.button-card {
+  width: 108px;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #2d5497, #1f3d70);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+.button3-set {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.button3-card {
+  flex: 1;
+  height: 44px;
+  background-color: #2d5497;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.button3-title {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* TASKS SECTION */
+.tasks-section {
+  width: 100%;
+  max-width: 440px;
+  padding: 0 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+/* SEARCH BAR + FILTER ICON */
+.search-filter-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 4px;
+  padding: 0 2px;
+}
+
+/* TABS */
+.task-toggle-tabs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 2px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px 0;
+  border: 1px solid #2d5497;
+  background-color: #fff;
+  color: #2d5497;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background-color: #2d5497;
+  color: #fff;
+}
+
+/* TASK LIST */
+.my-tasks-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+
+.application-summary-box {
+  width: 100%;
+  max-width: 440px;
+  padding: 12px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: #f1f5ff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.status-badge {
+  align-self: flex-end;
+}
+
+.region {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* RESPONSIVE */
+@media (max-width: 350px) {
+  .button2-set {
+    justify-content: center;
+  }
+
+  .button-card {
+    width: 100%;
+    aspect-ratio: auto;
+  }
+}
+
+.master-search-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  background-color: #f8f9fb; /* Optional subtle background */
+}
+
+.master-search-input-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;   /* center if you like */
+}
+
+.master-search-input {
+  width: 100%;
+  padding: 10px 44px 10px 14px;  /* room on the right for the icon */
+  border-radius: 12px;
+  border: 1px solid #2d5497;
+  font-size: 11px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  background-color: white;
+
+  /* draw your search icon as a background image */
+  background-image: url('assets/search.svg');
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 18px 18px;
+}
+
+
+

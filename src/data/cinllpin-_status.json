@@ -1,0 +1,46 @@
+[
+  {
+    "pan":"AAECN2319Q",
+    "name":"New Startup Pvt Ltd",
+    "entityType":"Private Limited",
+    "cin_status":"NOT_FOUND",
+    "cin":null,
+    "llpin":null,
+    "manual_type":"CIN",
+    "manual_input":"U12345KA2020PTC012345",
+    "reason_if_not_found":"Recently incorporated, not yet available in public records."
+  },
+  {
+    "pan":"AABCR0455M",
+    "name":"Reliance Industries Ltd",
+    "entityType":"Public Limited",
+    "cin_status":"FOUND",
+    "cin":"L17110MH1973PLC019786",
+    "llpin":null,
+    "manual_type":null,
+    "manual_input":null,
+    "reason_if_not_found":null
+  },
+  {
+    "pan":"AADFD8342N",
+    "name":"Draft Infra LLP",
+    "entityType":"LLP",
+    "cin_status":"FOUND",
+    "cin":null,
+    "llpin":"AAB-4321",
+    "manual_type":null,
+    "manual_input":null,
+    "reason_if_not_found":null
+  },
+  {
+    "pan":"AACFM8823K",
+    "name":"Mix Case Firm",
+    "entityType":"Proprietorship",
+    "cin_status":"NOT_APPLICABLE",
+    "cin":null,
+    "llpin":null,
+    "manual_type":null,
+    "manual_input":null,
+    "reason_if_not_found":"CIN\/LLPIN does not apply to Proprietorship firms."
+  }
+]

@@ -1,0 +1,39 @@
+.customers-page {
+    display: flex; flex-direction: column; height: 100vh;
+  }
+  .customers-content {
+    flex: 1; overflow-y: auto; padding-bottom: 56px;
+  }
+  .customers-search {
+    display: flex; align-items: center; gap: 8px;
+    padding: 0 20px 16px; box-sizing: border-box;
+  }
+  .icon-sm { width: 16px; height: 16px; }
+  .customer-cards {
+    display: flex; flex-direction: column; gap: 12px;
+    padding: 0 20px; box-sizing: border-box;
+  }
+  .customer-card {
+    display: flex; align-items: flex-start; background: #e8f0fe;
+    border-radius: 12px; padding: 16px; cursor: pointer;
+    transition: background 0.2s; position: relative;
+  }
+  .customer-card:hover { background: #d0e1fd; }
+  .card-avatar {
+    width: 40px; height: 40px; background: #2d5497; color: #fff;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font-family: Poppins; font-weight: 600; font-size: 14px;
+    margin-right: 12px;
+  }
+  .card-info { flex: 1; display: grid; grid-template-columns: auto 1fr; gap: 4px 8px; }
+  .info-label {
+    font-family: Poppins; font-size: 12px; color: #6b7a99;
+  }
+  .info-value {
+    font-family: Poppins; font-size: 14px; font-weight: 500; color: #334391;
+  }
+  .card-date {
+    position: absolute; top: 8px; right: 16px;
+    font-family: Poppins; font-size: 12px; color: #888;
+  }
+  

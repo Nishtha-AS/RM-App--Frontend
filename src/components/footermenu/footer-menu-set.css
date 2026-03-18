@@ -1,0 +1,61 @@
+.footer-container {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  background-color: #2d5497;
+  z-index: 1000;
+}
+.footer-tabbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+/* Base tab styling */
+.footer-tab {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 0;
+  transition: background 0.2s;
+}
+
+/* ↑ bump icon size here to make My Customers (and all others) larger */
+.footer-tab .tab-icon {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.2s;
+  margin-bottom: 4px;
+}
+
+/* Default label = white */
+.footer-tab .tab-label {
+  font-size: 10px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* Active tab background + pill */
+.footer-tab.active {
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 0 6px;
+}
+
+/* Reveal true SVG color (blue) when active */
+.footer-tab.active .tab-icon {
+  filter: brightness(0) saturate(100%)
+          invert(24%) sepia(60%)
+          saturate(1343%) hue-rotate(198deg)
+          brightness(97%) contrast(97%);
+}
+
+/* Label turns blue when active */
+.footer-tab.active .tab-label {
+  color: #2d5497;
+  font-weight: 600;
+}

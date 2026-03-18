@@ -1,0 +1,74 @@
+/* full‐page background + footer offset */
+.about-page {
+    background: #ffffff;
+    min-height: 100vh;
+    padding-bottom: 56px; /* leave space for footer nav */
+  }
+  
+  /* HEADER BAR */
+  .about-header-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #2d5497;
+    padding: 8px 16px;
+  }
+  .back-btn {
+    color: #ffffff;
+  }
+  .header-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+  /* MAIN CONTENT AREA */
+  .about-content {
+    padding: 16px 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Logo centered */
+  .about-logo-wrapper {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .about-logo {
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Paragraph text */
+  .about-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  
+  /* CONTACT ROWS */
+  .about-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .contact-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .contact-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .contact-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #2d5497;
+    text-decoration: none;
+  }
+  

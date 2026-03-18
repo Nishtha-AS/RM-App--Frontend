@@ -1,0 +1,25 @@
+[
+  {
+    "code":"CM",
+    "role":"Credit Manager",
+    "workflow":"BANK Full CAM for AgriSME BU",
+    "myTasks":2,
+    "unassigned":4
+  },
+  {
+    "code":"CE",
+    "role":"Credit Editor",
+    "workflow":"Credit Customer Edit",
+    "myTasks":4,
+    "unassigned":0
+  },
+  {
+    "code":"CM",
+    "role":"Credit Manager",
+    "workflow":"BANK Full CAM for AgriSME BU",
+    "myTasks":7,
+    "unassigned":3
+  }
+]
+
+

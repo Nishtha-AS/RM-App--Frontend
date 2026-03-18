@@ -1,0 +1,34 @@
+[
+  {
+    "pan":"AAECN2319Q",
+    "name":"New Startup Pvt Ltd",
+    "entityType":"Private Limited",
+    "resultType":"NTB",
+    "dedupeIds":null,
+    "draftId":null
+  },
+  {
+    "pan":"AABCR0455M",
+    "name":"Reliance Industries Ltd",
+    "entityType":"Public Limited",
+    "resultType":"DEDUPE",
+    "dedupeIds":"D1,D2",
+    "draftId":null
+  },
+  {
+    "pan":"AADFD8342N",
+    "name":"Draft Infra LLP",
+    "entityType":"LLP",
+    "resultType":"DRAFT",
+    "dedupeIds":"D3",
+    "draftId":"DR1"
+  },
+  {
+    "pan":"AACFM8823K",
+    "name":"Mix Case Firm",
+    "entityType":"Proprietorship",
+    "resultType":"DEDUPE+DRAFT",
+    "dedupeIds":"D4",
+    "draftId":"DR2"
+  }
+]

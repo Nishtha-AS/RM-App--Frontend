@@ -1,0 +1,140 @@
+/* General Layout */
+.lets-get-started-child {
+    position: absolute;
+    top: 108px;
+    left: 0;
+    background-color: var(--color-darkslategray);
+    width: 430px;
+    height: 759px;
+    opacity: 0.6;
+  }
+  
+  /* Icons */
+  .vector-icon,
+  .vector-icon1 {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .vector-icon {
+    width: 3px;
+    height: 4px;
+    max-width: 100%;
+  }
+  
+  .vector-icon1 {
+    width: 0;
+    height: 3px;
+  }
+  
+  /* Checkbox style container */
+  .vector-parent {
+    width: 23px;
+    height: 23px;
+    border: 3px solid var(--color-white);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) var(--padding-3xs);
+    gap: var(--gap-9xs);
+  }
+  
+  /* Text Styling */
+  .lets-get-you {
+    width: 171px;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  /* Frame Layouts */
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+  }
+  
+  /* Welcome message box */
+  .lets-start-messge {
+    position: absolute;
+    top: 357px;
+    left: 34px;
+    width: 361px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .lets-start-messge-inner {
+    align-self: stretch;
+    height: 50.5px;
+    background-color: var(--color-darkslateblue-100);
+    border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+    border-top: 3px solid var(--color-darkslateblue-100);
+    padding: var(--padding-2xs) 78px;
+    box-sizing: border-box;
+  }
+  
+  .lets-start-messge-child {
+    align-self: stretch;
+    height: 170.5px;
+    border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+    background-color: var(--color-white);
+    border-top: 3px solid #2f4396;
+    padding: 26px 40px;
+    text-align: center;
+    color: #2f4296;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  /* NTB CTA */
+  .create-ntb-customer {
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .create-ntb-customer-wrapper {
+    width: 204px;
+    height: 40px;
+    background-color: var(--color-darkslateblue-100);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-4xs) var(--padding-3xs);
+    color: var(--color-white);
+    box-sizing: border-box;
+  }
+  
+  /* No matches found layout */
+  .we-did-not-container {
+    height: 71px;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  .we-did-not {
+    margin: 0;
+  }
+  
+  .we-did-not-find-any-matches-li-parent {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  

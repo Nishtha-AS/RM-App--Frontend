@@ -1,0 +1,93 @@
+.section-header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    padding: 4px 0px;
+  }
+  
+  .section-heading-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .back-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .divider-icon {
+    width: 3px;
+    height: 24px;
+  }
+  
+  .section-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2d5497;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-actions-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #c5c5c5;
+    border-radius: 999px;
+    padding: 0 12px;
+    flex: 1;
+    min-width: 0;
+    box-shadow: none;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none !important;
+    background: transparent;
+    outline: none;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: none !important;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  /* Remove WebKit browser clear buttons completely */
+  .search-input::-webkit-search-decoration,
+  .search-input::-webkit-search-cancel-button,
+  .search-input::-webkit-search-results-button,
+  .search-input::-webkit-search-results-decoration {
+    display: none;
+  }
+  
+  .search-icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .sort-icon-button {
+    padding: 4px;
+    flex-shrink: 0;
+  }
+  
+  .sort-icon {
+    width: 40px;
+    height: 40px;
+  }
+  

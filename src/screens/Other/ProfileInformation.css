@@ -1,0 +1,102 @@
+/* Page wrapper and spacing */
+.profile-page {
+    background: #fff;
+    min-height: 100vh;
+    padding-bottom: 56px; /* leave room for footer nav */
+  }
+  
+  /* Custom header bar */
+  .profile-header-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #2d5497;
+    padding: 8px 16px;
+  }
+  .back-btn {
+    color: #fff;
+  }
+  .header-title {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  /* Main content */
+  .profile-content {
+    padding: 16px 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Avatar + name + edit */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .profile-avatar {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid #e03131;
+    border-radius: 50%;
+    color: #e03131;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile-name {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2d5497;
+    margin-left: 12px;
+    flex: 1;
+  }
+  .edit-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .edit-text {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    color: #2d5497;
+  }
+  
+  /* Field rows */
+  .fields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .field-row {
+    display: flex;
+    align-items: center;
+  }
+  .field-label {
+    width: 140px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  .field-input {
+    flex: 1;
+  }
+  .field-input .MuiOutlinedInput-root,
+  .field-input .MuiInputBase-root {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Status group checkboxes */
+  .status-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
